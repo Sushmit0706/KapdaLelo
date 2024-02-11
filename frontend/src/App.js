@@ -5,6 +5,7 @@ import Shop from "./Page/Shop";
 import ShopCategory from "./Page/ShopCategory";
 import Product from "./Page/Product";
 import Cart from "./Page/Cart";
+import LoginSignup from "./Page/LoginSignup";
 
 const App = () => {
   const [theme, setTheme] = useState("light");
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/products" element={<Product />} />
           <Route path=":productId" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path='/login' element={<LoginSignup />} />
         </Routes>
       </BrowserRouter>
     </div>
