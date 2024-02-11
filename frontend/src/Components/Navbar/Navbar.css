@@ -24,7 +24,28 @@
     font-size: 14px;
     cursor: pointer;
   }
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: black;
+    
+}
 
+.shooping-cart-count{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -18px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: #fff;
+}
 
 .toggle-icon{
     width: 50px;
