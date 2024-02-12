@@ -94,6 +94,9 @@ const Navbar = ({ theme, setTheme }) => {
         />
       </Link>
       <div className="shooping-cart-count">0</div>
+      <div className="login">
+        <Link to='/login'><button>Login</button></Link>
+      </div>
     </div>
   );
 };
